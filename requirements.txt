@@ -1,0 +1,4 @@
+pypdf==6.19.0
+
+# 仅旧版 .doc 文字提取需要本地 Microsoft Word 和 pywin32。
+pywin32>=306; sys_platform == 'win32'
